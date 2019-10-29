@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+div.sm-jumbotron{
+    margin: 0px;
+    padding: 1rem;
+    background-color:rgb(7, 116, 204);
+    color:white;
+    
+}
+button.btn-submit{
+    background-color: rgb(7, 116, 204);
+    color: white;
+    width: 40%;
+    margin-top: -2rem;
+    margin-left: 20vw;
+
+}
+button.btn-submit:focus,button.btn-submit:hover{
+    background-color:orange;
+}
+button.btn-cancel{
+    margin-top: -6rem;
+    margin-left: rgb(86, 92, 86);
+    color: white;
+    width: 40%;
+    margin-left: 2vw;
+    
+    
+    
+}
+button.btn-cancel:focus,button.btn-cancel:hover{
+    background-color: rgb(25, 44, 219);
+}
+input.ng-invalid.ng-dirty{
+    border-bottom-color: crimson !important;
+    box-shadow:0 1px 0 0 crimson !important;
+}
+.card{
+    width:55%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px rgb(77, 76, 76);
+    border-radius: 1px; 
+    margin:3%;  
+}
+.row .col.offset-s2 {
+    
+    margin-left: 25.667%;
+}
+.input-field{
+    margin-top: 3rem;
+}
